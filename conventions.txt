@@ -1,0 +1,81 @@
+35 Keywords that will help you jump start your python projects
+
+One That Does Nothing
+  pass - a placeholder; technically known as Python's null operation
+  USE:
+    It's mainly used early on when building the rough structure of a program
+
+Three That Are Objects
+  BOOLEAN Values
+    True
+    False
+  NULL Value
+    None
+
+Three for Making Decisions
+  if
+  elif
+  else
+  USE:
+    Can also be used as a ternary operation RESULT = STATEMENT_A if EXPRESSION else STATEMENT_B
+
+Five That Are Operators
+  BOOLEAN Logic
+    not - used for inverting that means
+    and
+    or
+  IDENTITY Checking
+    is - evaluates to either True or False of an object
+  MEMBERSHIP Testing
+    in - tests if the object on the left is a member of the collection on the right then evaluates to True or False
+
+Four Used for Looping
+  Start a loop
+    while - looping until some condition is reached
+    for - looping through the members of a collection
+  Controlling
+    break - immediately interrupts the current loop iteration
+    continue - immediately skips the rest of the current loop block, allowing the loop to continue on to the next iteration
+
+Three for Importing Other Things
+  import - bring the functionality of an external module
+  from - modifies import, can also be used with raise and yield
+  as - modifies import to create an alternate name for the imported module
+
+Five for Exceptional Situations
+  To Signal that there's a problem
+    raise - will cause the program to stop immediately and exit if not handles by an except or finally
+  To Signal that a particular condition is not met
+    assert - used to test if some expression is considered True, and if not raise an AssertionError
+  To Catch a signal and react to it
+    try - must be followed by either an else or finally to be valid
+    except - optionally continues an exception handler block by catching exceptions
+    finally - provides a means of always performing some action whether or not the exception was handled
+
+Four for Writing functions
+  Anonymous/Unnamed functions
+    lambda - used to define a callable anonymous function and its signature
+  Named functions
+    def - if used with a class defines a named method instead, class.method()
+  Stop the function and give back a value
+    return
+  Pause the function and give back a value
+    yield
+
+Three for manipulating namespaces
+  Write to the top from anywhere
+    global
+  Write to the parent from the child
+    nonlocal
+  Kill it with fire
+    del
+
+One for defining new types of Object
+  class
+
+One for working within a context
+  with - starts a context manager block
+
+Two for working Asynchronously
+  async
+  await - used to suspend the execution of the coroutine it is found within and waits fo the coroutine to its right to complete
