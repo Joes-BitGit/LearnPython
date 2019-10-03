@@ -1,6 +1,3 @@
-# LearnPython
-Journey to learning the programming language Python
-
 35 Keywords that will help you jump start your python projects
 
 One That Does Nothing
