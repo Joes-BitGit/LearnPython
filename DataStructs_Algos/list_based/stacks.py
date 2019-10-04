@@ -4,7 +4,11 @@ class Element(object):
         self.next = None
 
 class LinkedList(object):
-    """docstring for LinkedList."""
+    """
+    Linked list class is used to hold elements but will act as a stack.
+    Which means it will delete and insert only from the top of the Stack
+
+    """
     def __init__(self, head=None):
         self.head = head
 
@@ -39,7 +43,14 @@ class LinkedList(object):
         return to_delete
 
 class Stack(object):
-    """docstring for Stack."""
+    """
+    Stack is a lifo data structure
+    Access: O(N)
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(N)
+    Space: O(N)
+    """
     def __init__(self, top=None):
         self.ll = LinkedList(top)
 

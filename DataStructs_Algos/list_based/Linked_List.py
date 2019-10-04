@@ -4,6 +4,14 @@ class Element(object):
         self.next = None
 
 class LinkedList(object):
+    """
+    Singly Linked List.
+    Access: O(N)
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(N)
+    Space: O(N)
+    """
     def __init__(self, head=None):
         self.head = head
 
@@ -51,7 +59,6 @@ class LinkedList(object):
             prev.next = new_element
         else:
             new_element.next = current
-        pass
 
     def delete(self, value):
         # Deletion
@@ -67,5 +74,3 @@ class LinkedList(object):
                 if current.next.value == value:
                     current.next = current.next.next
                 current = current.next
-
-        pass
